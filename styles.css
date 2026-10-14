@@ -1,11 +1,37 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #adb0ad;
+    background-color: #f3f7f3;
 }
 h1 {
     color: #0066cc;
 }
 p{
-    font-size: 14px;
-    line-height: 1.5;
+    color: #370db5;
+    border: 1px solid black;
+    font-size: 14px;  
+     line-height: 1.5; 
+}
+#intro{
+    color: #d40f0f ;
+}
+.note{
+    color: #c6ec1f !important;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  border: 10px solid black;
+  padding: 20px;
+}
+div p{
+    color: aqua;
+}
+/* css units */ 
+
+.container{
+    border: 5px;
+    width: 600px;
+    border:  rgb(31, 5, 97) dotted;
+    border-style: dashed ;
+    background-color: green;
 }
